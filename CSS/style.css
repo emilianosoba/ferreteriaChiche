@@ -1,0 +1,36 @@
+body {
+    background-color: white;
+}
+
+.fa-brands{
+    display: flex;
+    width: 20px;
+    margin-top: 10px;
+
+}
+
+.hashtag {
+    
+    margin-right: 2rem;
+    letter-spacing: 2px;
+    color: #fff;
+}
+
+#img-box {
+    margin-top: 40px;
+    margin-left: 40px;
+}
+
+.img {
+    
+    border: solid 4px rgb(231, 69, 69);
+    border-radius: 15px;
+    overflow: hidden;
+    transition: transform 0.3s;
+    
+}
+
+.img:hover {
+
+    transform: scale(1.1);
+}
